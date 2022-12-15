@@ -58,3 +58,19 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
+/samples/[Ll]ibrary/
+/samples/[Tt]emp/
+/samples/[Oo]bj/
+/samples/[Bb]uild/
+/samples/[Bb]uilds/
+/samples/[Ll]ogs/
+/samples/[Mm]emoryCaptures/
+
+/template/[Ll]ibrary/
+/template/[Tt]emp/
+/template/[Oo]bj/
+/template/[Bb]uild/
+/template/[Bb]uilds/
+/template/[Ll]ogs/
+/template/[Mm]emoryCaptures/
+
