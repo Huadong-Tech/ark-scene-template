@@ -1,3 +1,5 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using System;
 
@@ -9,13 +11,14 @@ public class ChairsTagInitiator : TagInitiator
         Laptop,
         Desktop
     }
-
+    
     public enum OrientationType
     {
-        None,
-        Custom,
-        Front,
-        Behind,
+        None, // 无
+        Custom, // 自定义
+        Front, // 前
+        Behind, // 后
+
     }
 
     [Serializable]
@@ -40,10 +43,11 @@ public class ChairsTagInitiator : TagInitiator
         public float safetyPositionFrontScale = 1.0f;
         [Header("safetyBeerOrientation == Behind 时，填写")]
         public float safetyPositionBehindScale = 1.3f;
+
     }
 
-    [Header("起立参数")]
     public StandUpBeer standUpBeer;
-    [Header("附件参数")]
     public Accessory accessory;
+
+
 }
